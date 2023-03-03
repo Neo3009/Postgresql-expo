@@ -26,6 +26,8 @@ Es un sistema de gestión de bases de datos relacional orientado a objetos y de 
 
 El desarrollo de PostgreSQL no es manejado por una empresa o persona, sino que es dirigido por una comunidad de desarrolladores que trabajan de forma desinteresada, altruista, libre o apoyados por organizaciones comerciales.
 
+https://www.postgresql.org/download/
+
 
 \end{frame}
 
@@ -67,10 +69,26 @@ El desarrollo de PostgreSQL no es manejado por una empresa o persona, sino que e
 \includegraphics[width=13cm, height=7.5cm]{images/postgresql-architecture.jpg}
 
 \end{frame}
+\begin{frame}[fragile]{vistas}
+
+\includegraphics[width=13cm, height=7.5cm]{images/post.jpg}
+
+\end{frame}
+\begin{frame}[fragile]{vistas}
+
+\includegraphics[width=13cm, height=7.5cm]{images/ps1.png}
+
+\end{frame}
+\begin{frame}[fragile]{vistas}
+
+\includegraphics[width=13cm, height=7.5cm]{images/post2.jpg}
+
+\end{frame}
 
 \section{PostgreSQL}
 
 \begin{frame}
+
 \frametitle{¿Cuándo usar PostgreSQL?}
 \begin{itemize}
 
