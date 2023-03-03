@@ -1,0 +1,120 @@
+\documentclass{sintefbeamer}
+
+
+
+
+\title{POSTGRESQL\\ Motor de Base de Datos}
+\author{\href{mailto:qilong-kirov.liu@connect.hit.cn}{Nelson Arturo Castillo Lopez}}
+\date{Marzo 03, 2023}
+
+
+\titlebackground{images/background}
+
+
+% document body
+\begin{document}
+
+\maketitle
+
+\begin{frame}
+
+\textbf{¿Qué es?} \\
+
+\includegraphics[height=1.5cm]{images/Postgresql.png}\\
+
+Es un sistema de gestión de bases de datos relacional orientado a objetos y de código abierto, publicado bajo la licencia PostgreSQL
+
+El desarrollo de PostgreSQL no es manejado por una empresa o persona, sino que es dirigido por una comunidad de desarrolladores que trabajan de forma desinteresada, altruista, libre o apoyados por organizaciones comerciales.
+
+
+\end{frame}
+
+\section{Introducción}
+
+\begin{frame}{Caracteristicas}{\thesection \, \secname}
+\begin{itemize}
+
+\item Soporta diferentes tipos de datos y está orientado a objetos
+\item Cuenta con una comunidad de desarrolladores que implementan mejoras o resuelven errores de forma altruista.
+\item Emplea un lenguaje SQL basado en el estándar ISO/IEC. Por ello, permite importar consultas y código de scripts de otras bases de datos.
+\item Cumple con el modelo ACID, es decir, los datos almacenados cuentan con las características de Atomicidad, Consistencia, Aislamiento y Durabilidad.
+\item Ofrece opciones que otras bases de datos no tienen, como la posibilidad de crear tablas heredadas, esquemas o triggers.
+\item No solo permite crear procedimientos en lenguaje SQL, sino que también permite utilizar otros lenguajes de programación como Python o Pearl.
+
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Ventajas}
+
+\begin{itemize}
+\item Su instalación y uso gratis
+\item Disponibilidad multiplataforma
+\item Fácil configuración
+\item Gran cantidad de opciones avanzadas
+\item Funciona con el estándar SQL
+\item Control de concurrencias multiversión (MVCC)
+\item Hot-Standby (búsquedas de solo lectura)
+\item Query Tool (ejecutar comandos SQL)
+
+\end{itemize}
+\end{frame}
+
+
+\section{Arquitectura}
+
+\begin{frame}[fragile]{Arquitectura}
+
+\includegraphics[width=13cm, height=7.5cm]{images/postgresql-architecture.jpg}
+
+\end{frame}
+
+\section{PostgreSQL}
+
+\begin{frame}
+\frametitle{¿Cuándo usar PostgreSQL?}
+\begin{itemize}
+
+\item Datos geoespaciales gubernamentales - PostGIS 
+\item Industria financiera - OLTP (Procesamiento de Transacciones en Línea)
+\item Datos científicos - gestiona gran cantidad de datos
+\item Tecnología web - ejecutar sitios web y aplicaciones dinámicas
+\item Fabricación - reducir el coste operativo
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Desafíos operativos}
+\begin{itemize}
+
+\item Falta de un ecosistema de bases de datos maduro
+\item La escasez de conocimientos
+\item Inconsistencia
+
+\end{itemize}
+
+\end{frame}
+
+
+\section{Bibliografia}
+
+\begin{frame}
+\frametitle{Bibliografia}
+\begin{itemize}
+
+\item Que es PostgreSQL {https://kinsta.com/es/base-de-conocimiento/que-es-postgresql}
+
+\item  Ventajas PostgreSQL {https://ayudaleyprotecciondatos.es/bases-de-datos/que-es-postgresql-ventajas}
+
+\item PostgreSQL {https://es.wikipedia.org/wiki/PostgreSQL}
+
+
+
+\end{itemize}
+
+\end{frame}
+
+\backmatter
+
+\end{document}
